@@ -16,9 +16,8 @@ public class Main {
         daftarMahasiswa.tambahMahasiswa(new Student("67890", "Budi", 90));
         daftarMahasiswa.tambahMahasiswa(new Student("11111", "Siti", 88));
         daftarMahasiswa.tambahMahasiswa(new Student("22222", "Dewi", 92));
-        
-        // TODO: Uncomment line di bawah setelah method tampilkanDaftarMahasiswa() diimplementasikan
-        // daftarMahasiswa.tampilkanDaftarMahasiswa();
+
+         daftarMahasiswa.tampilkanDaftarMahasiswa();
         
         boolean running = true;
         while (running) {
