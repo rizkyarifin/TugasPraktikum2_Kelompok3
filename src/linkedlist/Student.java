@@ -1,3 +1,5 @@
+package linkedlist;
+
 public class Student {
     private String nim;
     private String nama;

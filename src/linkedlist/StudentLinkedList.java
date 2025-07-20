@@ -1,3 +1,5 @@
+package linkedlist;
+
 public class StudentLinkedList {
     private Node head;
     private int size;
