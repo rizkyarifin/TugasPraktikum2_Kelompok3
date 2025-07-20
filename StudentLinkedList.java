@@ -76,7 +76,7 @@ public class StudentLinkedList {
             return;
         }
 
-        System.out.println("\n Daftar Mahasiswa:");
+        System.out.println("\nDaftar Mahasiswa:");
         Node current = head;
         int nomor = 1;
         while (current != null) {
@@ -84,6 +84,7 @@ public class StudentLinkedList {
             current = current.getNext();
             nomor++;
         }
+        System.out.println("Total mahasiswa: " + size);
     }
     
     public Student cariMahasiswa(String nim) {
